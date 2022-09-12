@@ -1,12 +1,74 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp8984749.jpg);
+    color: black;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.weapon-red {
+    color: red;
+    background-color: rgb(50, 73, 205);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 10px;
+}
 
-*/
+.weapon-green {
+    color: green;
+    background-color: rgb(50, 73, 205);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.game {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.status {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: red;
+    text-shadow: 0 0 0.2em #ffffff;
+}
+
+.restart {
+    margin: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background-color: rgb(50, 73, 205);
+    font-size: 20px;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+}
+
+.square {
+    background: grey;
+    border: 2px solid rgb(50, 73, 205);
+    float: left;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1px;
+    height: 100px;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.square:focus {
+    outline: 1px solid black;
+    background: rgba(221, 221, 221, 0.425);
+}
+
+.footer {
+    margin-top: 1500px;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+}
